@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194749295517",
+    "project_id": "music-player-deb0c",
+    "storage_bucket": "music-player-deb0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194749295517:android:3ce07eaeab9b093ec01d74",
+        "android_client_info": {
+          "package_name": "com.msk.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194749295517-kvnfjkpbc1k6fk31u80fpovd8pobbqua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK8WGjLE8K4gMBpX1R62FKY8uCjsE3L8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194749295517-kvnfjkpbc1k6fk31u80fpovd8pobbqua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
