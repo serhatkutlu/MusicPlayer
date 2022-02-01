@@ -36,7 +36,7 @@ class FirebaseMusicSource @Inject constructor(private val musicDatabase: MusicDa
         state=State.STATE_INITIALIZED
     }
     //this function makes songs list
-    fun asMediaSource(dataSourceFactory:DefaultHttpDataSource.Factory):ConcatenatingMediaSource{
+    fun asMediaSource(dataSourceFactory:DefaultDataSourceFactory):ConcatenatingMediaSource{
         val concatenatingMediaSource=ConcatenatingMediaSource()
         songs.forEach{
             val mediaSource=ProgressiveMediaSource.Factory(dataSourceFactory)
