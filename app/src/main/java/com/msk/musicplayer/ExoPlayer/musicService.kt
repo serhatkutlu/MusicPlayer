@@ -21,6 +21,7 @@ import com.msk.musicplayer.ExoPlayer.CallBack.MusicPlayerNotificationListener
 import com.msk.musicplayer.ExoPlayer.CallBack.MusicPlayerPreparer
 import com.msk.musicplayer.FirebaseMusicSource
 import com.msk.musicplayer.Other.Constants.MEDIA_ROOT_ID
+import com.msk.musicplayer.Other.Constants.NETWORK_ERROR
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import javax.inject.Inject
@@ -144,6 +145,7 @@ class musicService:MediaBrowserServiceCompat() {
                             isPlayerInitialized=true
                         }
                     }else{
+                        mediaSession.sendSessionEvent(NETWORK_ERROR,null)
                         result.sendResult(null)
                     }
                 }
