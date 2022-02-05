@@ -20,7 +20,7 @@ class MusicServiceConnection(context: Context) {
 
 
     private val _networkError=MutableLiveData<Event<Resource<Boolean?>>>()
-    private val networkError:LiveData<Event<Resource<Boolean?>>> =_networkError
+     val networkError:LiveData<Event<Resource<Boolean?>>> =_networkError
 
     private val _playbackState=MutableLiveData<PlaybackStateCompat?>()
      val playbackState:LiveData<PlaybackStateCompat?> =_playbackState

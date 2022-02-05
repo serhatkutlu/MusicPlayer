@@ -1,9 +1,9 @@
-package com.msk.musicplayer
+package com.msk.musicplayer.Ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
+import com.msk.musicplayer.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
